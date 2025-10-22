@@ -1,0 +1,119 @@
+body {
+    background-color:rgb(52, 69,141);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    max-height: 200vh;
+    background-attachment: scroll;
+
+}
+.TopPage{
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(2, 2, 65);
+    border-top: 10px solid rgb(2, 2, 65);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px
+}
+#Header_text{
+    color:rgb(52, 69,141);
+    font-size: 35px;
+    font-weight:800px;
+    margin-left:5px;
+    letter-spacing:1.3px;
+
+}
+#image1{
+    float:right;
+    margin-right:105vh;
+    margin-left:5px;
+
+}
+.navbar {
+  background-color: rgb(223, 184, 28);
+  border-bottom: 5px solid rgb(2, 2, 65);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-right: 35px;
+  color: rgb(52, 69, 141);
+  font-size: 16px;
+  font-weight: 800;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+  cursor:pointer
+}
+
+.navbar a:hover {
+  color: rgb(2, 2, 65);
+  transform: scale(1.2);
+}
+
+.containover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#textover{
+    background-color:rgba(3, 3, 133, 0.411);
+    margin:20px;
+    padding:20px;
+    border-radius: 15em;
+    color:rgb(255, 212, 131);
+    font-weight:800;
+    letter-spacing:1.5px;
+    font-size:23px;
+}
+#mainline1{
+    color: white;
+    font-size: 1.1em;
+    text-align: justify;
+    margin:25px;
+    line-height: 1.4;
+    text-indent: 30px;
+}
+.txtsubsite{
+    color:white;
+    margin:20px;
+    padding:20px;
+    border:  5px double #dfb81c;
+}
+.bottompage{
+    margin-top: 100vh;
+    border-top:35px solid rgb(223, 184, 28);
+
+}
+#footer_text{
+    padding:8px;
+    padding-right: 20px;
+    margin:20px;
+    margin-top:5px;
+    color:rgba(255, 255, 255, 0.596);
+    background-color:rgba(97, 97, 97, 0.438);
+    border-radius: 8px;
+}
+.Members{
+    list-style: none;
+}
+
+#Creditstxt{
+    color:rgb(223, 184, 28);
+    text-align: center;
+}
+.Credits{
+    height: 30vh;
+    color: rgba(0, 0, 0, 0.479);
+    margin-left :50px;
+}
+
+#easteregg{
+    color:rgba(2, 2, 65, 0.096);
+}
